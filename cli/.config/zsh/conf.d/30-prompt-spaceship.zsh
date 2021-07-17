@@ -1,0 +1,1 @@
+../modules/30-prompt-spaceship.zsh

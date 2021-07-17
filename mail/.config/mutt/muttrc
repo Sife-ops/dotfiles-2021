@@ -1,0 +1,11 @@
+#
+# Sife's muttrc
+#
+
+source ~/.config/mutt/account.d/wyattgoettschatgmxdotus.conf
+source ~/.config/mutt/conf.d/accounts.conf
+source ~/.config/mutt/conf.d/auto-view.conf
+source ~/.config/mutt/conf.d/set.conf
+source ~/.config/mutt/conf.d/keymap.conf
+source ~/.config/mutt/conf.d/colors.conf
+source ~/.config/mutt/conf.d/gpg.rc
