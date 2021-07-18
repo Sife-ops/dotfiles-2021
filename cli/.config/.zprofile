@@ -42,8 +42,9 @@ chmod 600 ${CLIPBOARD}/*
 #     /etc/systemd/system.conf
 
 # enable pacman colors
+
 grep 'ILoveCandy' /etc/pacman.conf ||
-    sudo sed -i '/^# Misc options/a Color\nILoveCandy' /etc/pacman.conf
+    sudo sed -i '/^# Misc options/a Color\nILoveCandy\nParallelDownloads = 16' /etc/pacman.conf
 
 fi
 ##$#
