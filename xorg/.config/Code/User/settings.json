@@ -1,5 +1,4 @@
 {
-    "workbench.colorTheme": "Monokai",
     "files.exclude": {
         "**/.classpath": true,
         "**/.project": true,
