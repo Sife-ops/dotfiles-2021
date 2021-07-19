@@ -8,4 +8,6 @@ sed -e '/<maven.compiler.source>/ s/1\.7/1\.8/' \
     -e '/<maven.compiler.target>/ s/1\.7/1\.8/' \
     -i $1/pom.xml || exit 1
 
-cd $1 && code ./
+cd $1
+
+[ -n $2 ] && $2 ./
