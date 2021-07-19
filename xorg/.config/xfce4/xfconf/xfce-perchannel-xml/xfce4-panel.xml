@@ -65,6 +65,9 @@
         <value type="string" value="slack"/>
         <value type="string" value="discord"/>
       </property>
+      <property name="known-items" type="array">
+        <value type="string" value="zoom"/>
+      </property>
     </property>
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
