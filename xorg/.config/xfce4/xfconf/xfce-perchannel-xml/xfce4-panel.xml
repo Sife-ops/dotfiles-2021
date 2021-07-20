@@ -36,6 +36,7 @@
         <value type="int" value="12"/>
         <value type="int" value="13"/>
         <value type="int" value="14"/>
+        <value type="int" value="23"/>
       </property>
       <property name="output-name" type="string" value="DP-4"/>
       <property name="nrows" type="uint" value="2"/>
@@ -72,7 +73,7 @@
     <property name="plugin-8" type="string" value="pulseaudio">
       <property name="enable-keyboard-shortcuts" type="bool" value="true"/>
       <property name="show-notifications" type="bool" value="true"/>
-      <property name="mpris-players" type="string" value="chromium.instance1129;chromium.instance16724;chromium.instance3597;chromium.instance7041;chromium.instance7718;chromium.instance841"/>
+      <property name="mpris-players" type="string" value="chromium.instance1124;chromium.instance1129;chromium.instance16724;chromium.instance3597;chromium.instance7041;chromium.instance7718;chromium.instance841"/>
     </property>
     <property name="plugin-9" type="string" value="power-manager-plugin"/>
     <property name="plugin-10" type="string" value="notification-plugin"/>
@@ -134,6 +135,11 @@
     <property name="plugin-26" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="16265399148.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-23" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16267480851.desktop"/>
       </property>
     </property>
   </property>
