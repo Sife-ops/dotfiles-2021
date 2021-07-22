@@ -1,5 +1,5 @@
 favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop
-recent=Zoom.desktop,xfce4-screenshooter.desktop,io.dbeaver.DBeaver.desktop,slack.desktop,kitty.desktop,xfce4-terminal-emulator.desktop,xfce4-web-browser.desktop,visual-studio-code.desktop,discord.desktop,pavucontrol.desktop
+recent=discord.desktop,xfce4-screenshooter.desktop,Zoom.desktop,io.dbeaver.DBeaver.desktop,slack.desktop,kitty.desktop,xfce4-terminal-emulator.desktop,xfce4-web-browser.desktop,visual-studio-code.desktop,pavucontrol.desktop
 button-icon=xfce4-whiskermenu
 button-single-row=false
 show-button-title=false

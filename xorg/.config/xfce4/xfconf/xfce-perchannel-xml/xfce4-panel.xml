@@ -23,6 +23,9 @@
         <value type="int" value="20"/>
         <value type="int" value="21"/>
         <value type="int" value="22"/>
+        <value type="int" value="23"/>
+        <value type="int" value="24"/>
+        <value type="int" value="27"/>
         <value type="int" value="2"/>
         <value type="int" value="3"/>
         <value type="int" value="25"/>
@@ -36,7 +39,6 @@
         <value type="int" value="12"/>
         <value type="int" value="13"/>
         <value type="int" value="14"/>
-        <value type="int" value="23"/>
       </property>
       <property name="output-name" type="string" value="DP-4"/>
       <property name="nrows" type="uint" value="2"/>
@@ -63,6 +65,7 @@
     <property name="plugin-6" type="string" value="systray">
       <property name="square-icons" type="bool" value="true"/>
       <property name="known-legacy-items" type="array">
+        <value type="string" value="skypeforlinux"/>
         <value type="string" value="slack"/>
         <value type="string" value="discord"/>
       </property>
@@ -140,6 +143,16 @@
     <property name="plugin-23" type="string" value="launcher">
       <property name="items" type="array">
         <value type="string" value="16267480851.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-24" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16268245632.desktop"/>
+      </property>
+    </property>
+    <property name="plugin-27" type="string" value="launcher">
+      <property name="items" type="array">
+        <value type="string" value="16269163623.desktop"/>
       </property>
     </property>
   </property>
