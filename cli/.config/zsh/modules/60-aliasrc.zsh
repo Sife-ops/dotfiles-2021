@@ -30,6 +30,7 @@ alias \
     gau='git add -u' \
     gb='git branch -a' \
     gch='git checkout' \
+    gcl='git checkout @{-1}' \
     gcm='git commit -m' \
     gdh='git diff HEAD | less' \
     gi="git status --porcelain | grep '^??' | cut -c4- >> .gitignore" \
