@@ -24,23 +24,16 @@ esac
 #^ Git
 
 alias \
-    cgs='clear && git status' \
     ga='git add' \
     gap='git add -p' \
-    gau='git add -u' \
     gb='git branch -a' \
     gch='git checkout' \
     gcl='git checkout @{-1}' \
     gcm='git commit -m' \
     gdh='git diff HEAD | less' \
     gi="git status --porcelain | grep '^??' | cut -c4- >> .gitignore" \
-    gl='git ls-tree -r master --name-only | less' \
-    glu='git ls-files --others --exclude-standard | less' \
-    glua='git ls-files --others | less' \
-    gp='git push -u origin main' \
-    grh='git reset --hard' \
-    grl='git rev-list --pretty=oneline --abbrev-commit HEAD | less' \
-    grm='git rm -r --cached' \
+    gl='git log' \
+    glg="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'" \
     gs='git status'
 
 #$
