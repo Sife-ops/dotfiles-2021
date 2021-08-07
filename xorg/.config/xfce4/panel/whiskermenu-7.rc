@@ -1,5 +1,5 @@
 favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop
-recent=Zoom.desktop,vlc.desktop,xfce4-screenshooter.desktop,xfburn.desktop,postman.desktop,discord.desktop,io.dbeaver.DBeaver.desktop,slack.desktop,kitty.desktop,xfce4-terminal-emulator.desktop
+recent=xfce4-screenshooter.desktop,org.gnome.Calculator.desktop,Zoom.desktop,vlc.desktop,xfburn.desktop,postman.desktop,discord.desktop,io.dbeaver.DBeaver.desktop,slack.desktop,kitty.desktop
 button-icon=xfce4-whiskermenu
 button-single-row=false
 show-button-title=false
@@ -21,8 +21,8 @@ position-commands-alternate=false
 position-categories-alternate=true
 stay-on-focus-out=false
 confirm-session-command=true
-menu-width=1440
-menu-height=626
+menu-width=896
+menu-height=629
 menu-opacity=100
 command-settings=xfce4-settings-manager
 show-command-settings=true
