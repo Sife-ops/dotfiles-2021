@@ -42,5 +42,6 @@
     ],
     "editor.minimap.enabled": false,
     "java.project.importOnFirstTimeStartup": "automatic",
-    "files.autoSave": "afterDelay"
+    "files.autoSave": "afterDelay",
+    "window.zoomLevel": 1
 }
