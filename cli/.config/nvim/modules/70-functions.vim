@@ -6,7 +6,7 @@ function! CheatSheet()
     execute "term cat /tmp/cht.sh-$(id -un)"
 endfunction
 
-let g:skeldir = "~/.local/share/skeletons/"
+let g:skeldir = "~/.config/nvim/skeletons/"
 function! InsertSkeleton()
     " Insert a skeleton.
     normal! viwd
