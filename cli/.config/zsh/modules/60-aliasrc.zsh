@@ -30,7 +30,7 @@ alias \
     gch='git checkout' \
     gcl='git checkout @{-1}' \
     gcm='git commit -m' \
-    gdh='git diff HEAD | less' \
+    gd='git diff' \
     gi="git status --porcelain | grep '^??' | cut -c4- >> .gitignore" \
     gl='git log' \
     glg="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'" \
