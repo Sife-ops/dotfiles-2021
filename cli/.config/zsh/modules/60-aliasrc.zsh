@@ -30,6 +30,7 @@ alias \
     gch='git checkout' \
     gcl='git checkout @{-1}' \
     gcm='git commit -m' \
+    gct='test-branch' \
     gd='git diff' \
     gi="git status --porcelain | grep '^??' | cut -c4- >> .gitignore" \
     gl='git log' \

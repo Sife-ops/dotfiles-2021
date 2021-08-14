@@ -250,4 +250,9 @@ rsupdate () { #^
         "$(dirname "$(readlink "$1")")/"
 } #$
 
+test-branch(){ #^
+    git branch -D test 2>/dev/null
+    git checkout -b test
+} #$
+
 # vim: ft=sh fdm=marker fmr=#^,#$
