@@ -27,7 +27,7 @@ alias \
     ga='git add' \
     gap='git add -p' \
     gb='git branch -a' \
-    gch='git checkout' \
+    gc='git checkout' \
     gcl='git checkout @{-1}' \
     gcm='git commit -m' \
     gct='test-branch' \
@@ -35,6 +35,8 @@ alias \
     gi="git status --porcelain | grep '^??' | cut -c4- >> .gitignore" \
     gl='git log' \
     glg="git log --graph --abbrev-commit --decorate --format=format:'%C(bold blue)%h%C(reset) - %C(bold cyan)%aD%C(reset) %C(bold green)(%ar)%C(reset) %C(bold cyan)(committed: %cD)%C(reset) %C(auto)%d%C(reset)%n''          %C(white)%s%C(reset)%n''          %C(dim white)- %an <%ae> %C(reset) %C(dim white)(committer: %cn <%ce>)%C(reset)'" \
+    gm='git merge' \
+    gp='git push' \
     gs='git status'
 
 #$
