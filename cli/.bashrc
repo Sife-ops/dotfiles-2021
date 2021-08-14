@@ -4,7 +4,6 @@ set -o vi
 . /usr/share/fzf/key-bindings.bash
 
 ggf () {
-    # Wrapper for git.
     git commit -p && git push origin "$(git rev-parse --abbrev-ref HEAD)"
 }
 
