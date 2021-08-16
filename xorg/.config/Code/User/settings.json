@@ -42,6 +42,6 @@
     ],
     "editor.minimap.enabled": false,
     "java.project.importOnFirstTimeStartup": "automatic",
-    "files.autoSave": "afterDelay",
-    "javaTests.template.junitDefaultVersion": "alwaysAsk"
+    "javaTests.template.junitDefaultVersion": "alwaysAsk",
+    "files.autoSave": "afterDelay"
 }
