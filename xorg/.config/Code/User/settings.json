@@ -43,5 +43,16 @@
     "editor.minimap.enabled": false,
     "java.project.importOnFirstTimeStartup": "automatic",
     "javaTests.template.junitDefaultVersion": "alwaysAsk",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "explorer.confirmDelete": false,
+    "window.zoomLevel": -1,
     "files.autoSave": "afterDelay"
 }

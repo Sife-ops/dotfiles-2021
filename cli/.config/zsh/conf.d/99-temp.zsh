@@ -1,9 +1,9 @@
-OS="TempleOS"
+OS="Gentoo"
 sed -e "/OS/ s/Arch Linux/${OS}/" \
     -e "/Kernel/ s/arch/${OS}/" \
     -e "/Packages/ s/pacman/${OS}/" \
-    <(neofetch --source /home/wyatt/.dotfiles/cli/.local/share/neofetch/templeos)
-    # <(neofetch --ascii_distro gentoo)
+    <(neofetch --ascii_distro gentoo)
+    # <(neofetch --source /home/wyatt/.dotfiles/cli/.local/share/neofetch/templeos)
 
 # deploy-branch(){
 #     git branch -D deploy
@@ -15,4 +15,12 @@ sed -e "/OS/ s/Arch Linux/${OS}/" \
 gcd(){
     git branch -D deploy
     git checkout -b deploy
+}
+
+gmt(){
+    branch=$(git branch --show-current)
+    newBranch="${branch}|${1}|Merge"
+    git branch -D "${newBranch}"
+    git checkout -b "${newBranch}"
+    git merge "${1}"
 }
