@@ -53,6 +53,5 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "explorer.confirmDelete": false,
-    "window.zoomLevel": -1,
     "files.autoSave": "afterDelay"
 }
