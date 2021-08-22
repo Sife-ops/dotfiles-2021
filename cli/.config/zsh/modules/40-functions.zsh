@@ -1,4 +1,10 @@
-# Special
+  # __                  _   _
+ # / _|_   _ _ __   ___| |_(_) ___  _ __  ___
+# | |_| | | | '_ \ / __| __| |/ _ \| '_ \/ __|
+# |  _| |_| | | | | (__| |_| | (_) | | | \__ \
+# |_|  \__,_|_| |_|\___|\__|_|\___/|_| |_|___/
+
+#^ Special
 
 chpwd () { #^
     emulate -L zsh
@@ -25,7 +31,9 @@ preexec () { #^
 
 } #$
 
-# Widgets
+#$
+
+#^ Widgets
 
 _zsh_bookmarks="${XDG_DATA_HOME}/lf/marks"
 
@@ -130,7 +138,32 @@ zle-line-init () { #^
 }
 zle -N zle-line-init #$
 
-# Misc.
+#$
+
+#^ Docker
+
+dka(){ #^
+    docker container kill $(docker ps -q)
+    docker rm $(docker ps -a -f status=exited -q)
+} #$
+
+#$
+
+#^ Git
+
+gcd(){ #^
+    git branch -D deploy
+    git checkout -b deploy
+} #$
+
+gct(){ #^
+    git branch -D test 2>/dev/null
+    git checkout -b test
+} #$
+
+#$
+
+#^ Misc.
 
 # cheat () { #^
 # # Wrapper for cht.sh.
@@ -250,9 +283,6 @@ rsupdate () { #^
         "$(dirname "$(readlink "$1")")/"
 } #$
 
-test-branch(){ #^
-    git branch -D test 2>/dev/null
-    git checkout -b test
-} #$
+#$
 
 # vim: ft=sh fdm=marker fmr=#^,#$
