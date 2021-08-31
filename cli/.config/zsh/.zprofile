@@ -36,6 +36,8 @@ chmod 600 ${CLIPBOARD}/*
 
 #^#---- MISCELLANEOUS ----------------------------------------------------------
 
+# sh -c "$(curl -fsSL https://starship.rs/install.sh)"
+
 # set non-retarded timeout length of 30 seconds for systemd
 
 # sudo sed -i -E '/DefaultTimeout.*Sec/ s/(^#)(.*)(90)(.*)/\230\4/' \

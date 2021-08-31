@@ -52,6 +52,5 @@
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "explorer.confirmDelete": false,
-    "files.autoSave": "onFocusChange"
+    "explorer.confirmDelete": false
 }
