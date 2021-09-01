@@ -56,16 +56,16 @@ keycode 105 = Henkan
 !^ SPECIAL ---------------------------------------------------------------------
 ! Henkan
 ! keycode 100 = Escape
-keycode 100 = BackSpace
+keycode 100 = Tab
 
 ! Hirigana
 keycode 101 = Escape
 
 ! Print Screen
-keycode 107 = Tab
+! keycode 107 = Tab
 
 ! Scroll Lock
-! keycode  78 = BackSpace
+keycode  78 = BackSpace
 
 ! Pause / Break
 keycode 127 = backslash
