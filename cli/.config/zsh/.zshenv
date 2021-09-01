@@ -4,22 +4,16 @@
 #    _ / /\__ \ | | |  __/ | | \ V /
 #   (_)___|___/_| |_|\___|_| |_|\_/
 
-#^#---- XDG --------------------------------------------------------------------
-# export XDG_CONFIG_HOME="${HOME}/.config"
-# export XDG_DATA_HOME="${HOME}/.local/share"
-# export XDG_CACHE_HOME="${HOME}/.cache"
-#$#
-
 #^#---- PATH -------------------------------------------------------------------
-# export PATH="${PATH}:${HOME}/.local/bin"
+export PATH="${PATH}:${HOME}/.local/bin"
 # export PATH="${PATH}:${XDG_DATA_HOME}/npm/bin"
 # export PATH="${PATH}:${XDG_CONFIG_HOME}/emacs/bin"
 #$#
 
 #^#---- DEFAULT PROGRAMS -------------------------------------------------------
-# command -v nvim >/dev/null 2>&1 \
-# 	&& editor="nvim" \
-# 	|| editor="vim"
+command -v nvim >/dev/null 2>&1 \
+	&& editor="nvim" \
+	|| editor="vim"
 # export ALTEDITOR="code"
 # export BROWSER="${BROWSER:-lynx}"
 # export EDITOR="$editor"
