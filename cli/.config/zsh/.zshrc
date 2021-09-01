@@ -30,6 +30,8 @@ else
     case $(uname) in
         OpenBSD) zshplugins="/usr/local/share"
                  fzfplugins="/usr/local/share/fzf/zsh" ;;
+        Darwin)  zshplugins="/usr/local/opt"
+                 fzfplugins="/usr/local/opt/fzf/shell" ;;
     esac
 fi
 
