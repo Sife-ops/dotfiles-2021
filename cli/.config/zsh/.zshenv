@@ -5,24 +5,24 @@
 #   (_)___|___/_| |_|\___|_| |_|\_/
 
 #^#---- PATH -------------------------------------------------------------------
-export PATH="${PATH}:${HOME}/.local/bin"
 # export PATH="${PATH}:${XDG_DATA_HOME}/npm/bin"
 # export PATH="${PATH}:${XDG_CONFIG_HOME}/emacs/bin"
+export PATH="${PATH}:${HOME}/.local/bin"
 #$#
 
 #^#---- DEFAULT PROGRAMS -------------------------------------------------------
-command -v nvim >/dev/null 2>&1 \
-	&& editor="nvim" \
-	|| editor="vim"
-# export ALTEDITOR="code"
 # export BROWSER="${BROWSER:-lynx}"
-# export EDITOR="$editor"
 # export FCEDIT="$editor"
 # export PAGER="less"
 # export READER="zathura"
 # export TERMEXEC="st -e"
 # export TERMINAL="st"
 # export VISUAL="$editor"
+command -v nvim >/dev/null 2>&1 \
+	&& editor="nvim" \
+	|| editor="vim"
+export ALTEDITOR="code"
+export EDITOR="$editor"
 #$#
 
 #^#---- OTHER ------------------------------------------------------------------
