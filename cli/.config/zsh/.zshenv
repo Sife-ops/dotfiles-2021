@@ -33,7 +33,7 @@ export EDITOR="$editor"
 # export TMUX_TMPDIR="$XDG_RUNTIME_DIR"
 # export WGETRC="${XDG_CONFIG_HOME}/wget/wgetrc"
 export HISTSIZE=1000000
-export NVM_DIR="${HOME}/nvm"
+export NVM_DIR="${HOME}/.nvm"
 export SAVEHIST=900000
 export ZDOTDIR="${HOME}/.config/zsh"
 #$#
