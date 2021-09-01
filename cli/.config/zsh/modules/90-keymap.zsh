@@ -11,6 +11,7 @@ isfunction lfcd && bindkey -s "^F" "lfcd^m"
 
 # misc.
 bindkey ' ' magic-space
+bindkey '\Eu' autosuggest-accept
 bindkey '^A' autosuggest-accept
 bindkey -M vicmd v edit-command-line
 bindkey -s "^Xi" "ii_read.sh^mii_message.sh^m"
