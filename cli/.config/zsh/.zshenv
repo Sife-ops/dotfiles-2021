@@ -5,24 +5,22 @@
 #   (_)___|___/_| |_|\___|_| |_|\_/
 
 #^#---- PATH -------------------------------------------------------------------
-# export PATH="${PATH}:${XDG_DATA_HOME}/npm/bin"
-# export PATH="${PATH}:${XDG_CONFIG_HOME}/emacs/bin"
 export PATH="${PATH}:${HOME}/.local/bin"
 #$#
 
 #^#---- DEFAULT PROGRAMS -------------------------------------------------------
 # export BROWSER="${BROWSER:-lynx}"
-# export FCEDIT="$editor"
 # export PAGER="less"
 # export READER="zathura"
 # export TERMEXEC="st -e"
 # export TERMINAL="st"
-# export VISUAL="$editor"
 command -v nvim >/dev/null 2>&1 \
 	&& editor="nvim" \
 	|| editor="vim"
 export ALTEDITOR="code"
 export EDITOR="$editor"
+export FCEDIT="$editor"
+export VISUAL="$editor"
 #$#
 
 #^#---- OTHER ------------------------------------------------------------------
@@ -33,6 +31,7 @@ export EDITOR="$editor"
 # export TMUX_TMPDIR="$XDG_RUNTIME_DIR"
 # export WGETRC="${XDG_CONFIG_HOME}/wget/wgetrc"
 export HISTSIZE=1000000
+export KEYTIMEOUT=1
 export NVM_DIR="${HOME}/.nvm"
 export SAVEHIST=900000
 export ZDOTDIR="${HOME}/.config/zsh"
