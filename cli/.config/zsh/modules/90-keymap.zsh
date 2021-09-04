@@ -13,6 +13,7 @@ isfunction lfcd && bindkey -s "^F" "lfcd^m"
 bindkey ' ' magic-space
 bindkey '^ ' autosuggest-accept
 bindkey '^A' autosuggest-accept
+bindkey '\Er' 'fzf-history-widget'
 bindkey -M vicmd v edit-command-line
 bindkey -s "^Xi" "ii_read.sh^mii_message.sh^m"
 bindkey -s "^Xk" "while kill % 2>/dev/null; do : ; done^m"
