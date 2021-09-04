@@ -18,3 +18,4 @@ bindkey -s "^Xi" "ii_read.sh^mii_message.sh^m"
 bindkey -s "^Xk" "while kill % 2>/dev/null; do : ; done^m"
 bindkey -s "^Z" "%-^m"
 bindkey -v '^?' backward-delete-char
+
