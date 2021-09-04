@@ -1,5 +1,5 @@
 favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop
-recent=xfce4-accessibility-settings.desktop,com.obsproject.Studio.desktop,Zoom.desktop,virt-manager.desktop,org.qbittorrent.qBittorrent.desktop,fcitx-configtool.desktop,xfce4-screenshooter.desktop,skypeforlinux.desktop,org.inkscape.Inkscape.desktop,org.gnome.Calculator.desktop
+recent=skypeforlinux.desktop,xfce4-accessibility-settings.desktop,com.obsproject.Studio.desktop,Zoom.desktop,virt-manager.desktop,org.qbittorrent.qBittorrent.desktop,fcitx-configtool.desktop,xfce4-screenshooter.desktop,org.inkscape.Inkscape.desktop,org.gnome.Calculator.desktop
 button-icon=xfce4-whiskermenu
 button-single-row=false
 show-button-title=false
