@@ -9,9 +9,6 @@ export PATH="${PATH}:${HOME}/.local/bin"
 #$#
 
 #^#---- DEFAULT PROGRAMS -------------------------------------------------------
-# export BROWSER="${BROWSER:-lynx}"
-# export PAGER="less"
-# export READER="zathura"
 # export TERMEXEC="st -e"
 # export TERMINAL="st"
 command -v nvim >/dev/null 2>&1 \
@@ -20,16 +17,17 @@ command -v nvim >/dev/null 2>&1 \
 export ALTEDITOR="code"
 export EDITOR="$editor"
 export FCEDIT="$editor"
+export PAGER="less"
 export VISUAL="$editor"
 #$#
 
 #^#---- OTHER ------------------------------------------------------------------
-# export HISTFILE="${XDG_DATA_HOME}/history"
 # export INPUTRC="${XDG_CONFIG_HOME}/inputrc"
 # export LESSHISTFILE="-"
 # export NPM_CONFIG_USERCONFIG="${XDG_CONFIG_HOME}/npm/npmrc"
 # export TMUX_TMPDIR="$XDG_RUNTIME_DIR"
 # export WGETRC="${XDG_CONFIG_HOME}/wget/wgetrc"
+export HISTFILE="${HOME}/.local/share/history"
 export HISTSIZE=1000000
 export KEYTIMEOUT=1
 export NVM_DIR="${HOME}/.nvm"
