@@ -52,5 +52,6 @@
     "[json]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-    "explorer.confirmDelete": false
+    "explorer.confirmDelete": false,
+    "keyboard.dispatch": "keyCode"
 }
