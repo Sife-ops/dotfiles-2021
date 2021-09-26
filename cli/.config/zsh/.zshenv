@@ -9,8 +9,6 @@ export PATH="${PATH}:${HOME}/.local/bin"
 #$#
 
 #^#---- DEFAULT PROGRAMS -------------------------------------------------------
-# export TERMEXEC="st -e"
-# export TERMINAL="st"
 command -v nvim >/dev/null 2>&1 \
 	&& editor="nvim" \
 	|| editor="vim"
@@ -22,11 +20,6 @@ export VISUAL="$editor"
 #$#
 
 #^#---- OTHER ------------------------------------------------------------------
-# export INPUTRC="${XDG_CONFIG_HOME}/inputrc"
-# export LESSHISTFILE="-"
-# export NPM_CONFIG_USERCONFIG="${XDG_CONFIG_HOME}/npm/npmrc"
-# export TMUX_TMPDIR="$XDG_RUNTIME_DIR"
-# export WGETRC="${XDG_CONFIG_HOME}/wget/wgetrc"
 export HISTFILE="${HOME}/.local/share/history"
 export HISTSIZE=1000000
 export KEYTIMEOUT=1
