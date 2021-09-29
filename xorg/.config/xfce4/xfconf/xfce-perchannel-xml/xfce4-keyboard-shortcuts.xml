@@ -184,8 +184,8 @@
       <property name="&lt;Shift&gt;&lt;Super&gt;l" type="string" value="tile_right_key"/>
       <property name="&lt;Super&gt;q" type="string" value="close_window_key"/>
       <property name="&lt;Super&gt;Tab" type="string" value="switch_window_key"/>
-      <property name="&lt;Primary&gt;Left" type="string" value="prev_workspace_key"/>
-      <property name="&lt;Primary&gt;Right" type="string" value="next_workspace_key"/>
+      <property name="&lt;Super&gt;bracketleft" type="string" value="prev_workspace_key"/>
+      <property name="&lt;Super&gt;bracketright" type="string" value="next_workspace_key"/>
     </property>
   </property>
   <property name="providers" type="array">

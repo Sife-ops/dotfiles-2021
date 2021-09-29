@@ -1,5 +1,5 @@
 favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop
-recent=com.ultimaker.cura.desktop,blender.desktop,org.gnome.Calculator.desktop,io.github.Hexchat.desktop,minecraft-launcher.desktop,vlc.desktop,xfce4-screenshooter.desktop,hedgewars.desktop,org.qbittorrent.qBittorrent.desktop,RepetierHost.desktop
+recent=com.ultimaker.cura.desktop,blender.desktop,org.gnome.Calculator.desktop,xfce4-screenshooter.desktop,org.qbittorrent.qBittorrent.desktop,virt-manager.desktop,io.github.Hexchat.desktop,minecraft-launcher.desktop,vlc.desktop,hedgewars.desktop
 button-icon=xfce4-whiskermenu
 button-single-row=false
 show-button-title=false
