@@ -1,6 +1,10 @@
 [xfdesktop-version-4.10.3+-rcfile_format]
 4.10.3+=true
 
+[fd14f939-2883-4227-9e88-6e9cee99755e]
+row=14
+col=0
+
 [25C4-77CB]
 row=15
 col=0
@@ -13,15 +17,11 @@ col=0
 row=17
 col=0
 
-[fd14f939-2883-4227-9e88-6e9cee99755e]
-row=14
+[/]
+row=18
 col=0
 
 [/home/wyatt]
 row=13
-col=0
-
-[/]
-row=18
 col=0
 
