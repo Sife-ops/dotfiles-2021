@@ -18,7 +18,7 @@ action_list () {
     echo "open url"
 }
 
-src=$(main_list | ${DMENU_CMD:-dmenu}); [ "$src" = "" ] && exit 1
+src=$(main_list | dmenu ${DMENU_OPTS} -i -l 20); [ "$src" = "" ] && exit 1
 src=$(echo "$src" | cut -d ':' -f 1)
 case "$src" in
     clipboard) content=$(xclip -o -selection clipboard) ;;
@@ -28,7 +28,7 @@ case "$src" in
     *) content=$(cat ${CLIPBOARD}/${src}) ;;
 esac
 
-trg=$(action_list | ${DMENU_CMD:-dmenu}); [ "$trg" = "" ] && exit 1
+trg=$(action_list | dmenu ${DMENU_OPTS} -i -l 20); [ "$trg" = "" ] && exit 1
 trg=$(echo "$trg" | cut -d ':' -f 1)
 case "$trg" in
     clipboard) echo "$content" | xclip -i -selection clipboard ;;

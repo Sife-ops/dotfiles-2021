@@ -23,7 +23,7 @@ if [ -f /etc/os-release ]; then
     done < /etc/os-release
 
     case $NAME in
-        Debian*|Raspbian*) zshplugins="/usr/share"
+        Ubuntu*|Debian*|Raspbian*) zshplugins="/usr/share"
                            fzfplugins="/usr/share/doc/fzf/examples" ;;
     esac
 else

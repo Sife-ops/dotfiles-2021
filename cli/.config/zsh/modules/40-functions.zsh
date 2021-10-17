@@ -253,6 +253,7 @@ lfcd () { #^
         if [ -d "$dir" ]; then
             if [ "$dir" != "$(pwd)" ]; then
                 cd "$dir"
+                print -s "cd $dir"
             fi
         fi
     fi
