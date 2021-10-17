@@ -53,6 +53,5 @@
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "explorer.confirmDelete": false,
-    "keyboard.dispatch": "keyCode",
-    "window.zoomLevel": 1
+    "keyboard.dispatch": "keyCode"
 }

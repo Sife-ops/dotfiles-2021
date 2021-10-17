@@ -33,19 +33,19 @@ youtubedl_list () {
     echo "audio playlist"
 }
 
-chosen=$(main_list | ${DMENU_CMD:-dmenu})
+chosen=$(main_list | dmenu ${DMENU_OPTS} -i -l 20)
 case "$chosen" in
-    open) chosen=$(open_list | ${DMENU_CMD:-dmenu})
+    open) chosen=$(open_list | dmenu ${DMENU_OPTS} -i -l 20)
         case "$chosen" in
             browser) $BROWSER "$url" ;;
             # mpv) : ;;
             # sxiv) : ;;
             *) exit 1 ;;
         esac ;;
-    download) chosen=$(download_list | ${DMENU_CMD:-dmenu}) && cd "${DOWNLOADS:-${HOME}/Downloads}"
+    download) chosen=$(download_list | dmenu ${DMENU_OPTS} -i -l 20) && cd "${DOWNLOADS:-${HOME}/Downloads}"
         case "$chosen" in
             curl) ${TERMEXEC:-xterm -e} curl -LO $url ;;
-            youtube-dl) chosen=$(youtubedl_list | ${DMENU_CMD:-dmenu})
+            youtube-dl) chosen=$(youtubedl_list | dmenu ${DMENU_OPTS} -i -l 20)
                 case "$chosen" in
                     automatic) ${TERMEXEC:-xterm -e} youtube-dl $url ;;
                     "best quality") ${TERMEXEC:-xterm -e} youtube-dl -f bestvideo+bestaudio $url ;;
