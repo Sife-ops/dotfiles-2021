@@ -13,7 +13,6 @@ export XDG_CACHE_HOME="${HOME}/.cache"
 #^#---- PATH -------------------------------------------------------------------
 export PATH="${PATH}:${HOME}/.local/bin"
 export PATH="${PATH}:${XDG_DATA_HOME}/npm/bin"
-export PATH="${PATH}:${XDG_CONFIG_HOME}/emacs/bin"
 #$#
 
 #^#---- DEFAULT PROGRAMS -------------------------------------------------------
@@ -29,17 +28,14 @@ export READER="zathura"
 export TERMEXEC="st -e"
 export TERMINAL="st"
 export VISUAL="$editor"
+unset editor
 #$#
 
 #^#---- OTHER ------------------------------------------------------------------
-# export XAUTHORITY="$XDG_RUNTIME_DIR/Xauthority" # breaks some DMs
-export ANDROID_SDK_HOME="${XDG_CONFIG_HOME}/android"
 export BOOKMARKS="${XDG_DATA_HOME}/bookmarks"
 export CARGO_HOME="${XDG_DATA_HOME}/cargo"
 export CLIPBOARD="${XDG_DATA_HOME}/clipboard"
 export DMENU_OPTS="-i -l 20"
-export DOWNLOADS="${HOME}/Downloads"
-export FEEDS="${XDG_CONFIG_HOME}/newsboat/urls"
 export GDBHISTFILE="${XDG_DATA_HOME}/gdb/history"
 export GNUPGHOME="${XDG_DATA_HOME}/gnupg"
 export GOPATH="${XDG_DATA_HOME}/go"
@@ -74,8 +70,6 @@ export TMUX_TMPDIR="$XDG_RUNTIME_DIR"
 export TODO="${XDG_DATA_HOME}/todo"
 export URL_OPENER="url.sh"
 export WGETRC="${XDG_CONFIG_HOME}/wget/wgetrc"
-export XMODMAP="${HOME}/.Xmodmap"
-export XMODMAPS="${XDG_CONFIG_HOME}/xmodmap"
 export ZDOTDIR="${XDG_CONFIG_HOME}/zsh"
 #$#
 

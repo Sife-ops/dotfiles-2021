@@ -1,1 +1,0 @@
-../modules/51-vim-ripgrep.vim
