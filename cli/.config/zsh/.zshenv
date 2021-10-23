@@ -17,6 +17,7 @@ export EDITOR="$editor"
 export FCEDIT="$editor"
 export PAGER="less"
 export VISUAL="$editor"
+unset editor
 #$#
 
 #^#---- OTHER ------------------------------------------------------------------
