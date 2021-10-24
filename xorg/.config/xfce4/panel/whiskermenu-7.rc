@@ -1,5 +1,5 @@
 favorites=xfce4-web-browser.desktop,xfce4-mail-reader.desktop,xfce4-file-manager.desktop,xfce4-terminal-emulator.desktop
-recent=io.github.Hexchat.desktop,org.qbittorrent.qBittorrent.desktop,xfce4-screenshooter.desktop,org.gnome.Calculator.desktop,bitwarden.desktop,com.ultimaker.cura.desktop,blender.desktop,slack.desktop,skypeforlinux.desktop,pgModeler.desktop
+recent=org.qbittorrent.qBittorrent.desktop,io.github.Hexchat.desktop,xfce4-screenshooter.desktop,org.gnome.Calculator.desktop,bitwarden.desktop,com.ultimaker.cura.desktop,blender.desktop,slack.desktop,skypeforlinux.desktop,pgModeler.desktop
 button-icon=xfce4-whiskermenu
 button-single-row=false
 show-button-title=false
