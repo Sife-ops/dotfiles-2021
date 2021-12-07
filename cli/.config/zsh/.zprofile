@@ -30,3 +30,5 @@ fi
 #$#
 
 # vim: ft=sh fdm=marker fmr=#^#,#$#
+
+export PATH="/home/wyatt/.local/share/solana/install/active_release/bin:$PATH"

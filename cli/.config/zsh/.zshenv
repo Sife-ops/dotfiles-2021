@@ -13,6 +13,7 @@ export XDG_CACHE_HOME="${HOME}/.cache"
 #^#---- PATH -------------------------------------------------------------------
 export PATH="${PATH}:${HOME}/.local/bin"
 export PATH="${PATH}:${XDG_DATA_HOME}/npm/bin"
+export PATH="${PATH}:${XDG_DATA_HOME}/solana/install/active_release/bin"
 #$#
 
 #^#---- DEFAULT PROGRAMS -------------------------------------------------------
@@ -74,3 +75,4 @@ export ZDOTDIR="${XDG_CONFIG_HOME}/zsh"
 #$#
 
 # vim: ft=sh fdm=marker fmr=#^#,#$#
+. "/home/wyatt/.local/share/cargo/env"
