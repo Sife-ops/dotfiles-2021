@@ -75,4 +75,3 @@ export ZDOTDIR="${XDG_CONFIG_HOME}/zsh"
 #$#
 
 # vim: ft=sh fdm=marker fmr=#^#,#$#
-. "/home/wyatt/.local/share/cargo/env"
